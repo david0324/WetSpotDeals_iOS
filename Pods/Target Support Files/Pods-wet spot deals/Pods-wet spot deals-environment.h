@@ -1,0 +1,86 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking 2
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 2
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 2
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 2
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 2
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 2
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 2
+
+// Mixpanel
+#define COCOAPODS_POD_AVAILABLE_Mixpanel
+#define COCOAPODS_VERSION_MAJOR_Mixpanel 2
+#define COCOAPODS_VERSION_MINOR_Mixpanel 8
+#define COCOAPODS_VERSION_PATCH_Mixpanel 1
+
+// Mixpanel/MPCategoryHelpers
+#define COCOAPODS_POD_AVAILABLE_Mixpanel_MPCategoryHelpers
+#define COCOAPODS_VERSION_MAJOR_Mixpanel_MPCategoryHelpers 2
+#define COCOAPODS_VERSION_MINOR_Mixpanel_MPCategoryHelpers 8
+#define COCOAPODS_VERSION_PATCH_Mixpanel_MPCategoryHelpers 1
+
+// Mixpanel/Mixpanel
+#define COCOAPODS_POD_AVAILABLE_Mixpanel_Mixpanel
+#define COCOAPODS_VERSION_MAJOR_Mixpanel_Mixpanel 2
+#define COCOAPODS_VERSION_MINOR_Mixpanel_Mixpanel 8
+#define COCOAPODS_VERSION_PATCH_Mixpanel_Mixpanel 1
+
+// SLParallaxController
+#define COCOAPODS_POD_AVAILABLE_SLParallaxController
+#define COCOAPODS_VERSION_MAJOR_SLParallaxController 1
+#define COCOAPODS_VERSION_MINOR_SLParallaxController 0
+#define COCOAPODS_VERSION_PATCH_SLParallaxController 3
+
+// SVProgressHUD
+#define COCOAPODS_POD_AVAILABLE_SVProgressHUD
+#define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_MINOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_PATCH_SVProgressHUD 3
+
+// UIScrollView-InfiniteScroll
+#define COCOAPODS_POD_AVAILABLE_UIScrollView_InfiniteScroll
+#define COCOAPODS_VERSION_MAJOR_UIScrollView_InfiniteScroll 0
+#define COCOAPODS_VERSION_MINOR_UIScrollView_InfiniteScroll 7
+#define COCOAPODS_VERSION_PATCH_UIScrollView_InfiniteScroll 1
+

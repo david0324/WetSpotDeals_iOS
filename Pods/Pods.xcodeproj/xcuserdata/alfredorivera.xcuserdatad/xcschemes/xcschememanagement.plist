@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-wet spot deals-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-wet spot deals-Mixpanel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-wet spot deals-SLParallaxController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-wet spot deals-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-wet spot deals-UIScrollView-InfiniteScroll.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-wet spot deals.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>01B29945E9799D4C3BC272AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>145CB425C34826F2A6A44E88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35092AD139D594A97A4663E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C698302AF4C57A56D1E5432</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E66A22916870391B04C127B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F48177EF0C7418B4A5FE580</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="itemCell" rowHeight="159" id="uei-7K-FKZ" customClass="ItemTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uei-7K-FKZ" id="r9u-MP-Zeg">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="image" image="image_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="7sl-Xr-8dS">
+                        <rect key="frame" x="18" y="22" width="59" height="107"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="Qb5-ZC-Xx5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label1" text="Stella Artois" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jn-MK-h9Q">
+                        <rect key="frame" x="85" y="22" width="239" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label3" text="$12.99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te7-MO-pv4">
+                        <rect key="frame" x="85" y="78" width="239" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="star1" image="star_enable_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="zy8-cO-QML">
+                        <rect key="frame" x="85" y="109" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="DRW-sg-zRQ"/>
+                            <constraint firstAttribute="height" constant="10" id="fbI-6T-Fbz"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="star2" image="star_enable_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="2er-zk-kkl">
+                        <rect key="frame" x="98" y="109" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="SOS-aq-4Ih"/>
+                            <constraint firstAttribute="height" constant="10" id="vcy-Zg-nMW"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="star5" image="star_disable_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="W8N-sd-QON">
+                        <rect key="frame" x="137" y="109" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="KFA-ci-9r5"/>
+                            <constraint firstAttribute="width" constant="10" id="bhz-ek-aBZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label2" text="Beer, 12pk-11oz Btls" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr4-Gx-bFV">
+                        <rect key="frame" x="85" y="51" width="239" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5.0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jUz-kO-QTc">
+                        <rect key="frame" x="149" y="107" width="32" height="14"/>
+                        <color key="backgroundColor" red="0.15294118230000001" green="0.83529418710000003" blue="0.19215688110000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="Tbv-b6-CX5"/>
+                            <constraint firstAttribute="height" constant="14" id="p9Q-Qg-1GB"/>
+                        </constraints>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="star3" image="star_enable_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="8df-nL-4nl">
+                        <rect key="frame" x="111" y="109" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="1Wz-h0-9zJ"/>
+                            <constraint firstAttribute="width" constant="10" id="Cbw-vT-DCO"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="star4" image="star_enable_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="knb-9q-e7I">
+                        <rect key="frame" x="124" y="109" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="pch-Bf-Ba1"/>
+                            <constraint firstAttribute="height" constant="10" id="tjN-wo-CDt"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="logo" image="logo_item_wetspotdepot.png" translatesAutoresizingMaskIntoConstraints="NO" id="w9w-DA-kUa">
+                        <rect key="frame" x="184" y="99" width="95" height="30"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7sl-Xr-8dS" firstAttribute="top" secondItem="r9u-MP-Zeg" secondAttribute="topMargin" constant="14" id="1Kd-QY-0Lc"/>
+                    <constraint firstItem="Sr4-Gx-bFV" firstAttribute="leading" secondItem="7sl-Xr-8dS" secondAttribute="trailing" constant="8" id="3AD-JN-wsv"/>
+                    <constraint firstItem="Sr4-Gx-bFV" firstAttribute="trailing" secondItem="r9u-MP-Zeg" secondAttribute="trailingMargin" constant="45" id="ALF-bg-K34"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="knb-9q-e7I" secondAttribute="centerY" id="B2r-Mz-Tp2"/>
+                    <constraint firstItem="W8N-sd-QON" firstAttribute="leading" secondItem="knb-9q-e7I" secondAttribute="trailing" constant="3" id="CSF-1p-znP"/>
+                    <constraint firstItem="knb-9q-e7I" firstAttribute="leading" secondItem="8df-nL-4nl" secondAttribute="trailing" constant="3" id="EVk-Qv-Ai5"/>
+                    <constraint firstItem="w9w-DA-kUa" firstAttribute="top" secondItem="Te7-MO-pv4" secondAttribute="bottom" id="F3C-2h-b7D"/>
+                    <constraint firstItem="5jn-MK-h9Q" firstAttribute="trailing" secondItem="r9u-MP-Zeg" secondAttribute="trailingMargin" constant="45" id="FU2-Rl-Qat"/>
+                    <constraint firstItem="jUz-kO-QTc" firstAttribute="leading" secondItem="W8N-sd-QON" secondAttribute="trailing" constant="2" id="Gbp-tY-ae4"/>
+                    <constraint firstItem="Te7-MO-pv4" firstAttribute="leading" secondItem="zy8-cO-QML" secondAttribute="leading" id="K2q-Gj-Nks"/>
+                    <constraint firstItem="Te7-MO-pv4" firstAttribute="trailing" secondItem="r9u-MP-Zeg" secondAttribute="trailingMargin" constant="45" id="Lnp-K1-RsL"/>
+                    <constraint firstItem="8df-nL-4nl" firstAttribute="leading" secondItem="2er-zk-kkl" secondAttribute="trailing" constant="3" id="NPi-8S-hhv"/>
+                    <constraint firstItem="w9w-DA-kUa" firstAttribute="trailing" secondItem="r9u-MP-Zeg" secondAttribute="trailingMargin" id="OZj-S1-S2d"/>
+                    <constraint firstItem="5jn-MK-h9Q" firstAttribute="leading" secondItem="7sl-Xr-8dS" secondAttribute="trailing" constant="8" id="ZwW-yX-sC5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="7sl-Xr-8dS" secondAttribute="bottom" constant="21" id="aP3-Og-JbA"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="w9w-DA-kUa" secondAttribute="centerY" id="aSd-6o-rvO"/>
+                    <constraint firstItem="Te7-MO-pv4" firstAttribute="leading" secondItem="7sl-Xr-8dS" secondAttribute="trailing" constant="8" id="aiu-Wp-ych"/>
+                    <constraint firstItem="Te7-MO-pv4" firstAttribute="top" secondItem="Sr4-Gx-bFV" secondAttribute="bottom" constant="9" id="b0Z-Gb-kFv"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="2er-zk-kkl" secondAttribute="centerY" id="bAn-Pe-drC"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="W8N-sd-QON" secondAttribute="centerY" id="d4f-yN-IfG"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="top" secondItem="Te7-MO-pv4" secondAttribute="bottom" constant="10" id="d7L-Uk-igZ"/>
+                    <constraint firstItem="Sr4-Gx-bFV" firstAttribute="top" secondItem="5jn-MK-h9Q" secondAttribute="bottom" constant="8" id="dt0-O8-07s"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="jUz-kO-QTc" secondAttribute="centerY" id="pNW-Ho-7Qb"/>
+                    <constraint firstItem="2er-zk-kkl" firstAttribute="leading" secondItem="zy8-cO-QML" secondAttribute="trailing" constant="3" id="pXD-BP-oMa"/>
+                    <constraint firstItem="w9w-DA-kUa" firstAttribute="leading" secondItem="jUz-kO-QTc" secondAttribute="trailing" constant="3" id="s5D-o6-8YG"/>
+                    <constraint firstItem="7sl-Xr-8dS" firstAttribute="leading" secondItem="r9u-MP-Zeg" secondAttribute="leadingMargin" constant="10" id="uZh-cg-LYr"/>
+                    <constraint firstItem="5jn-MK-h9Q" firstAttribute="top" secondItem="r9u-MP-Zeg" secondAttribute="topMargin" constant="14" id="xcJ-8b-hrt"/>
+                    <constraint firstItem="zy8-cO-QML" firstAttribute="centerY" secondItem="8df-nL-4nl" secondAttribute="centerY" id="xqr-Xa-U22"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="image" destination="7sl-Xr-8dS" id="8xD-Or-NjG"/>
+                <outlet property="logo" destination="w9w-DA-kUa" id="Iku-eX-5M6"/>
+                <outlet property="price" destination="Te7-MO-pv4" id="rEj-e2-JIE"/>
+                <outlet property="rating" destination="jUz-kO-QTc" id="R39-K4-BKa"/>
+                <outlet property="subTitle" destination="Sr4-Gx-bFV" id="sOd-bO-i7S"/>
+                <outlet property="title" destination="5jn-MK-h9Q" id="DCO-5S-Gfp"/>
+                <outletCollection property="stars" destination="zy8-cO-QML" id="wR2-0R-12j"/>
+                <outletCollection property="stars" destination="2er-zk-kkl" id="wV0-hs-wkG"/>
+                <outletCollection property="stars" destination="8df-nL-4nl" id="kxm-8U-KBg"/>
+                <outletCollection property="stars" destination="knb-9q-e7I" id="ebd-Bh-RY7"/>
+                <outletCollection property="stars" destination="W8N-sd-QON" id="VZK-dx-5Hs"/>
+            </connections>
+            <point key="canvasLocation" x="663" y="289.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image_item_wetspotdepot.png" width="34" height="135"/>
+        <image name="logo_item_wetspotdepot.png" width="127" height="35"/>
+        <image name="star_disable_item_wetspotdepot.png" width="25" height="24"/>
+        <image name="star_enable_item_wetspotdepot.png" width="25" height="24"/>
+    </resources>
+</document>
